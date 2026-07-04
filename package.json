@@ -1,0 +1,11 @@
+{
+  "name": "free-gradient-tools",
+  "version": "1.0.0",
+  "description": "Free gradient and color palette datasets, plus small CSS helpers.",
+  "type": "module",
+  "main": "src/gradient.js",
+  "exports": { ".": "./src/gradient.js" },
+  "files": ["src", "data"],
+  "keywords": ["gradients", "color", "palettes", "css", "dataset"],
+  "license": "MIT"
+}
