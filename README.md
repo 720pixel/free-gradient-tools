@@ -28,27 +28,45 @@ No signup to convert. Works in the browser.
 
 ## Features on freegradient.com
 
-- **Gradient library**: 3000+ gradients, copy CSS, Tailwind, and SVG, download
-  free `.grd` and `.png`. Browse by category (Y2K, Chrome, Holographic, Pastel,
-  Sunset, and more).
-- **Color palettes**: 4000+ four-color palettes. Hover a swatch and click to
-  copy the hex, or copy RGB and OKLCH.
-- **Gradient backgrounds**: 1000 large-format gradient wallpapers, free PNG.
-- **Gradient builder**: multi-stop linear, radial, diamond, angle, and
-  reflected gradients with live preview and CSS export.
-- **Image to gradient**: drop an image and pull a gradient off it with
-  draggable sample handles, all in your browser.
-- **Color editor and visualizer**: see shade, saturation, hue, temperature,
-  luminance, and colorblind variations, check WCAG contrast, preview a theme,
-  and export a gradient.
-- **GRD tools**: parse a Photoshop `.grd` file to CSS and hex, or generate a
-  `.grd` from a CSS gradient, HEX, RGB, HTML, or BBCode colors.
-- **Gradient buttons**: 30 modern, copy-paste CSS button styles.
-- **Gradient text colorizer**: color text letter by letter and copy it as
-  BBCode, HTML, CSS, or Tailwind, with any font, presets, and alignment.
-- **Free JSON API**: gradients, palettes, tags, converters, and random
-  endpoints.
-- **Dark and light themes**, fast pages, mobile first.
+Color and gradient:
+
+- **[Gradient library](https://freegradient.com/gradients)**: 3000+ gradients,
+  copy CSS, Tailwind, and SVG, download free `.grd` and `.png`.
+- **[Color palettes](https://freegradient.com/palettes)**: 4000+ four-color
+  palettes, copy hex, RGB, and OKLCH.
+- **[Gradient backgrounds](https://freegradient.com/backgrounds)**: 1000
+  large-format gradient wallpapers, free PNG.
+- **[Gradient builder](https://freegradient.com/builder)**: multi-stop linear,
+  radial, diamond, angle, and reflected gradients with CSS export.
+- **[Image to gradient](https://freegradient.com/tools/image-to-gradient)**:
+  pull a gradient off any image with draggable sample handles.
+- **[Color editor and visualizer](https://freegradient.com/editor)**: shade,
+  saturation, hue, temperature, luminance, colorblind, WCAG contrast, and theme.
+- **[GRD parser](https://freegradient.com/tools/grd-parser)**: read a Photoshop
+  `.grd` file as CSS and hex.
+- **[CSS to GRD](https://freegradient.com/tools/css-to-grd)**: generate a `.grd`
+  from a CSS gradient, HEX, RGB, HTML, or BBCode colors.
+- **[Gradient buttons](https://freegradient.com/buttons)**: 30 copy-paste CSS
+  button styles.
+
+Text tools:
+
+- **[Fancy text generator](https://freegradient.com/tools/fancy-text)**: 25+
+  Unicode font styles to copy and paste.
+- **[Gradient text colorizer](https://freegradient.com/tools/text-colorizer)**:
+  color text letter by letter as BBCode, HTML, CSS, or Tailwind, with any font.
+- **[Big text generator](https://freegradient.com/tools/big-text)**: large,
+  boxed, circled, and full-width letters.
+- **[Text decorator](https://freegradient.com/tools/text-decorator)**: wrap text
+  in hearts, stars, and symbol borders.
+- **[Case converter](https://freegradient.com/tools/case-converter)**:
+  lowercase, UPPERCASE, capitalize, sentence, random, and normalize.
+- **[Character counter](https://freegradient.com/tools/character-count)**: count
+  characters, words, sentences, and reading time.
+
+Also a **[free JSON API](https://freegradient.com/docs/api)** for gradients,
+palettes, tags, converters, and random endpoints, dark and light themes, fast
+pages, mobile first.
 
 ## What is in this repository
 
