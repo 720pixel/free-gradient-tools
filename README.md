@@ -72,7 +72,7 @@ Developer:
   operations into a recipe, Base64, hex, URL, binary, Base32, ROT13, XOR, Caesar,
   Morse, MD5, SHA-1/256/512, JSON, JWT, timestamps, and more.
 
-Also a **[free JSON API](https://freegradient.com/docs/api)** for gradients,
+Plus a **[JSON API](https://freegradient.com/docs/api)** (Pro) for gradients,
 palettes, tags, converters, and random endpoints, dark and light themes, fast
 pages, mobile first.
 
