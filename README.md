@@ -41,9 +41,11 @@ No signup to convert. Works in the browser.
 - **Color editor and visualizer**: see shade, saturation, hue, temperature,
   luminance, and colorblind variations, check WCAG contrast, preview a theme,
   and export a gradient.
-- **GRD tools**: parse a Photoshop `.grd` file to CSS and hex, or convert CSS,
-  hex, and RGB into a `.grd`.
+- **GRD tools**: parse a Photoshop `.grd` file to CSS and hex, or generate a
+  `.grd` from a CSS gradient, HEX, RGB, HTML, or BBCode colors.
 - **Gradient buttons**: 30 modern, copy-paste CSS button styles.
+- **Gradient text colorizer**: color text letter by letter and copy it as
+  BBCode, HTML, CSS, or Tailwind, with any font, presets, and alignment.
 - **Free JSON API**: gradients, palettes, tags, converters, and random
   endpoints.
 - **Dark and light themes**, fast pages, mobile first.
