@@ -1,14 +1,43 @@
-# free-gradient-tools
+# Free Gradient — free CSS gradients, color palettes, and gradient tools
 
-Free, MIT-licensed gradient and color palette datasets, plus a few small CSS
-helpers. Drop the JSON into your project, or use the helpers to render CSS.
+**[freegradient.com](https://freegradient.com)** is a fast, free library of
+**3000+ gradients** and **4000+ color palettes** with a full set of
+browser-based color tools. Copy CSS, build your own, and download GRD, SVG, and
+PNG. No signup needed to browse or copy.
 
-## Contents
+This repository holds the free, MIT-licensed **datasets and small helpers** that
+sit behind the site. If you want the live tools, use
+**[freegradient.com](https://freegradient.com)**.
+
+## Features on freegradient.com
+
+- **Gradient library** — 3000+ gradients, copy CSS, Tailwind, and SVG, download
+  free `.grd` and `.png`. Browse by category (Y2K, Chrome, Holographic, Pastel,
+  Sunset, and more).
+- **Color palettes** — 4000+ four-color palettes. Hover a swatch and click to
+  copy the hex, or copy RGB and OKLCH.
+- **Gradient backgrounds** — 1000 large-format gradient wallpapers, free PNG.
+- **Gradient builder** — multi-stop linear, radial, diamond, angle, and
+  reflected gradients with live preview and CSS export.
+- **Image to gradient** — drop an image and pull a gradient off it with
+  draggable sample handles, all in your browser.
+- **Color editor and visualizer** — see shade, saturation, hue, temperature,
+  luminance, and colorblind variations, check WCAG contrast, preview a theme,
+  and export a gradient.
+- **GRD tools** — parse a Photoshop `.grd` file to CSS and hex, or convert CSS,
+  hex, and RGB into a `.grd`.
+- **Gradient buttons** — 30 modern, copy-paste CSS button styles.
+- **Free JSON API** — gradients, palettes, tags, converters, and random
+  endpoints.
+- **Dark and light themes**, fast pages, mobile first.
+
+## What is in this repository
 
 - `data/gradients.json` — 174 curated gradients with color stops and ready CSS.
 - `data/palettes.json` — 600 four-color palettes (hex and RGB).
 - `data/tags.json` — category tags used across the sets.
-- `src/gradient.js` — tiny helpers: `toCss`, `hexToRgb`, `rgbToHex`, `codeToColors`.
+- `src/gradient.js` — tiny helpers: `toCss`, `hexToRgb`, `rgbToHex`,
+  `codeToColors`.
 
 ## Install
 
@@ -16,7 +45,7 @@ helpers. Drop the JSON into your project, or use the helpers to render CSS.
 npm install free-gradient-tools
 ```
 
-Or just copy the JSON files you need.
+Or copy the JSON files you need.
 
 ## Usage
 
@@ -24,14 +53,15 @@ Or just copy the JSON files you need.
 import { toCss, codeToColors } from "free-gradient-tools";
 import gradients from "free-gradient-tools/data/gradients.json" assert { type: "json" };
 
-const g = gradients.gradients[0];
-document.body.style.background = g.css;        // ready to use
+document.body.style.background = gradients.gradients[0].css; // ready to use
 
-// or build one yourself
-const css = toCss([{ color: "#7c5cff", pos: 0 }, { color: "#22d3ee", pos: 100 }], 120);
+const css = toCss(
+  [{ color: "#7c5cff", pos: 0 }, { color: "#22d3ee", pos: 100 }],
+  120,
+);
 
-// palette codes -> colors
-codeToColors("222831393e4600adb5eeeeee"); // ["#222831","#393e46","#00adb5","#eeeeee"]
+codeToColors("222831393e4600adb5eeeeee");
+// ["#222831", "#393e46", "#00adb5", "#eeeeee"]
 ```
 
 ## Data shape
@@ -54,8 +84,15 @@ Palette:
   "tags": ["dark", "grey", "teal"] }
 ```
 
+## Keywords
+
+Free CSS gradients, gradient generator, gradient background, CSS gradient tools,
+color palette generator, gradient buttons, image to gradient, Photoshop grd,
+color contrast checker, colorblind simulator.
+
 ## License
 
-MIT. Color values are facts and free to use. Curated gradient set is MIT.
+MIT. Color values are facts and free to use. The curated gradient set is MIT.
 
-Made by [720pixel](https://720p.red).
+Built by [720pixel](https://720p.red) · Live at
+[freegradient.com](https://freegradient.com).
