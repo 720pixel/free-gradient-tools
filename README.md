@@ -61,8 +61,16 @@ Text tools:
   in hearts, stars, and symbol borders.
 - **[Case converter](https://freegradient.com/tools/case-converter)**:
   lowercase, UPPERCASE, capitalize, sentence, random, and normalize.
+- **[Strikethrough text](https://freegradient.com/tools/strikethrough)**: cross
+  out text 10 ways, strike, tilde, slash, underline, and overline.
 - **[Character counter](https://freegradient.com/tools/character-count)**: count
   characters, words, sentences, and reading time.
+
+Developer:
+
+- **[Data Forge](https://freegradient.com/tools/data-forge)**: chain data
+  operations into a recipe, Base64, hex, URL, binary, Base32, ROT13, XOR, Caesar,
+  Morse, MD5, SHA-1/256/512, JSON, JWT, timestamps, and more.
 
 Also a **[free JSON API](https://freegradient.com/docs/api)** for gradients,
 palettes, tags, converters, and random endpoints, dark and light themes, fast
