@@ -9,6 +9,23 @@ This repository holds the free, MIT-licensed **datasets and small helpers** that
 sit behind the site. If you want the live tools, use
 **[freegradient.com](https://freegradient.com)**.
 
+---
+
+## 🎨 Photoshop .GRD generator (free)
+
+**Turn any CSS gradient into a real Photoshop `.grd` file, and read `.grd` files back to CSS.**
+This is the standout tool: paste a CSS, HEX, or RGB gradient and download a
+byte-perfect Photoshop gradient you can load straight into Photoshop, or upload a
+`.grd` and get every gradient as CSS and hex.
+
+- **CSS to GRD** → [freegradient.com/tools/css-to-grd](https://freegradient.com/tools/css-to-grd)
+- **GRD parser (GRD to CSS)** → [freegradient.com/tools/grd-parser](https://freegradient.com/tools/grd-parser)
+
+Supports linear and radial gradients, multiple color stops, and opacity stops.
+No signup to convert. Works in the browser.
+
+---
+
 ## Features on freegradient.com
 
 - **Gradient library** — 3000+ gradients, copy CSS, Tailwind, and SVG, download
