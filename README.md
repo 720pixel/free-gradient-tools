@@ -1,4 +1,4 @@
-# Free Gradient — free CSS gradients, color palettes, and gradient tools
+# Free Gradient: free CSS gradients, color palettes, and gradient tools
 
 **[freegradient.com](https://freegradient.com)** is a fast, free library of
 **3000+ gradients** and **4000+ color palettes** with a full set of
@@ -28,32 +28,32 @@ No signup to convert. Works in the browser.
 
 ## Features on freegradient.com
 
-- **Gradient library** — 3000+ gradients, copy CSS, Tailwind, and SVG, download
+- **Gradient library**: 3000+ gradients, copy CSS, Tailwind, and SVG, download
   free `.grd` and `.png`. Browse by category (Y2K, Chrome, Holographic, Pastel,
   Sunset, and more).
-- **Color palettes** — 4000+ four-color palettes. Hover a swatch and click to
+- **Color palettes**: 4000+ four-color palettes. Hover a swatch and click to
   copy the hex, or copy RGB and OKLCH.
-- **Gradient backgrounds** — 1000 large-format gradient wallpapers, free PNG.
-- **Gradient builder** — multi-stop linear, radial, diamond, angle, and
+- **Gradient backgrounds**: 1000 large-format gradient wallpapers, free PNG.
+- **Gradient builder**: multi-stop linear, radial, diamond, angle, and
   reflected gradients with live preview and CSS export.
-- **Image to gradient** — drop an image and pull a gradient off it with
+- **Image to gradient**: drop an image and pull a gradient off it with
   draggable sample handles, all in your browser.
-- **Color editor and visualizer** — see shade, saturation, hue, temperature,
+- **Color editor and visualizer**: see shade, saturation, hue, temperature,
   luminance, and colorblind variations, check WCAG contrast, preview a theme,
   and export a gradient.
-- **GRD tools** — parse a Photoshop `.grd` file to CSS and hex, or convert CSS,
+- **GRD tools**: parse a Photoshop `.grd` file to CSS and hex, or convert CSS,
   hex, and RGB into a `.grd`.
-- **Gradient buttons** — 30 modern, copy-paste CSS button styles.
-- **Free JSON API** — gradients, palettes, tags, converters, and random
+- **Gradient buttons**: 30 modern, copy-paste CSS button styles.
+- **Free JSON API**: gradients, palettes, tags, converters, and random
   endpoints.
 - **Dark and light themes**, fast pages, mobile first.
 
 ## What is in this repository
 
-- `data/gradients.json` — 174 curated gradients with color stops and ready CSS.
-- `data/palettes.json` — 600 four-color palettes (hex and RGB).
-- `data/tags.json` — category tags used across the sets.
-- `src/gradient.js` — tiny helpers: `toCss`, `hexToRgb`, `rgbToHex`,
+- `data/gradients.json`: 174 curated gradients with color stops and ready CSS (the site has 3000+).
+- `data/palettes.json`: 600 four-color palettes with hex and RGB, sampled from the 4000+ on the site.
+- `data/tags.json`: category tags used across the sets.
+- `src/gradient.js`: tiny helpers: `toCss`, `hexToRgb`, `rgbToHex`,
   `codeToColors`.
 
 ## Install
